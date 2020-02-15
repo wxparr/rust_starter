@@ -69,7 +69,7 @@ impl Application for Conduit {
 
         Container::new(scrollable)
             .height(Length::Fill)
-            .center_y()
+            //.center_y() // control the body
             .into()
     }
 }

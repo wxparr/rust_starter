@@ -52,7 +52,7 @@ impl Nav {
                     .align_items(Align::Center)
                     .push(
                         Column::new().padding(20).spacing(50).push(
-                            Text::new("conduit")
+                            Text::new("yerbostart")
                                 .color([0.361, 0.722, 0.361])
                                 .font(BRAND_FONT)
                                 .size(42), //.horizontal_alignment(HorizontalAlignment::Center),
@@ -87,7 +87,7 @@ impl Nav {
                                 .align_items(Align::Center)
                                 .push(
                                     Row::new().padding(10).push(
-                                        Text::new("conduit")
+                                        Text::new("yerbostart")
                                             .color([1.0, 1.0, 1.0])
                                             .font(BRAND_FONT)
                                             .size(100)
@@ -97,7 +97,7 @@ impl Nav {
                                 )
                                 .push(
                                     Row::new().padding(5).push(
-                                        Text::new("A place to share your knowledge.")
+                                        Text::new("Lets get this thing started!")
                                             .color([1.0, 1.0, 1.0])
                                             //.font(BRAND_FONT)
                                             .size(26)
